@@ -16,3 +16,6 @@ I’ve always wanted to build one of those cyberdeck-y computers. the ones you s
 
 ## The Plan
 I'm gonna fix that. The goal is to design a PCB that acts as a USB adapter for a ThinkPad T61 (and probably also T60, T400, etc.) Ideally, you’d just plug the ribbon cable into this board, and out comes a USB HID signal. I don't have a T61 keyboard yet, but my good friend google should tell me the details I need. 
+
+I found [this instructable](https://www.instructables.com/Make-a-ThinkPad-keyboard-USB-adapter-with-Arduino) from like eleven years ago. Which is not the best. I guess I can kind of use it as inspiration, but it's closed source, and uses external counters and IC, which would slow it down like crazy. I will probably use a teensy 4.0
+
