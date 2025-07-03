@@ -17,5 +17,16 @@ I’ve always wanted to build one of those cyberdeck-y computers. the ones you s
 ## The Plan
 I'm gonna fix that. The goal is to design a PCB that acts as a USB adapter for a ThinkPad T61 (and probably also T60, T400, etc.) Ideally, you’d just plug the ribbon cable into this board, and out comes a USB HID signal. I don't have a T61 keyboard yet, but my good friend google should tell me the details I need. 
 
-I found [this instructable](https://www.instructables.com/Make-a-ThinkPad-keyboard-USB-adapter-with-Arduino) from like eleven years ago. Which is not the best. I guess I can kind of use it as inspiration, but it's closed source, and uses external counters and IC, which would slow it down like crazy. I will probably use a teensy 4.0
-
+I found [this instructable](https://www.instructables.com/Make-a-ThinkPad-keyboard-USB-adapter-with-Arduino) from like eleven years ago. Which is not the best. I guess I can kind of use it as inspiration, but it's closed source, and uses external counters and IC, which would slow it down like crazy. I will probably use a teensy 4.0. Might be a little overkill but I'm dealing with some FPC ribbon cable with a JAE AA01B-S040VA1 receptacle. It's also used by a lot of DIY keyboard hobbyists. I found the AA01B-S040 keyboard connector used on the motherboard is available on [AliExpress](https://www.instructables.com/Make-a-ThinkPad-keyboard-USB-adapter-with-Arduino). After a bit of research i've been able to make a vague parts list:
+| Qty | Description |
+|-----|-------------|
+| 1   | Teensy 4.0 with pins and 2x7 right angle header pins |
+| 4   | 0.1 µF 0603 10V 10% ceramic capacitors (C3 thru C6) |
+| 2   | 2.2 µF 0603 10V 10% ceramic capacitors (C1 and C2) |
+| 8   | 4.7K 0603 1% 0.1 W thick film resistors (R3 thru R10) |
+| 1   | 17K 0603 1% 0.1 W thick film resistor (R12) |
+| 1   | 100K 0603 1% 0.1 W thick film resistor (R11) |
+| 2   | 715 Ω 0603 1% 0.1 W thick film resistors (R1 and R2) |
+| 4   | BSS138 N-Channel FETs — [Digi-Key #4530-BSS138CT-ND](https://www.digikey.com/en/products/detail/anbon-semiconductor-int-l-limited/BSS138/16708474?s=N4IgTCBcDaICwFYDMAGAtAIQMpYIxIA4BhAFTQDkAREAXQF8g) |
+| 1   | [AA01B-S040](www.aliexpress.us/item/32930352581.html) connector |
+| 1   | Printed circuit board for schematic |
