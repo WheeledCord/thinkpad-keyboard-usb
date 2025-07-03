@@ -30,3 +30,6 @@ I found [this instructable](https://www.instructables.com/Make-a-ThinkPad-keyboa
 | 4   | BSS138 N Channel FETs Digikey part number [4530-BSS138CT-ND](https://www.digikey.com/en/products/detail/anbon-semiconductor-int-l-limited/BSS138/16708474?s=N4IgTCBcDaICwFYDMAGAtAIQMpYIxIA4BhAFTQDkAREAXQF8g) |
 | 1   | [AA01B-S040](www.aliexpress.us/item/32930352581.html) connector |
 | 1   | Printed circuit board for schematic |
+
+
+I'm probably gonna try and make a half baked schematic now.
