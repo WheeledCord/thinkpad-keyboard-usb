@@ -5,7 +5,7 @@ description: "A PCB to allow a thinkpad laptop keyboard to be used as a USB keyb
 created_at: "2025-07-03"
 ---
 
-## 7/3/25
+## 7/3/25 - 7-ish hours working.
 ### A little backstory:
 
 I’ve always wanted to build one of those cyberdeck-y computers. the ones you see on reddit, crammed into a Pelican case. Problem is, most of the cool ones either skimp on the keyboard or use a generic 60% board. That’s fine for typing… if you’re a minimalist. But I need arrow keys, function keys, a proper Esc key, short enough keys to close the lid, while still being full size, and preferably something that doesn’t require me to lug around a mouse. If only there was a perfect keyboard with all those feats... Well there is! It is on the thinkpad T61. It’s compact, clicky, has a built in TrackPoint (the little red nipple thing you can use for a mouse), and it’s probably the best laptop keyboard ever made. One problem. It doesnt use USB. It uses some arcane ribbon cable protocol only Lenovo/IBM’s old motherboards understand. 
@@ -31,5 +31,6 @@ I found [this instructable](https://www.instructables.com/Make-a-ThinkPad-keyboa
 | 1   | [AA01B-S040](www.aliexpress.us/item/32930352581.html) connector |
 | 1   | Printed circuit board for schematic |
 
+## The Start
 
-I'm probably gonna try and make a half baked schematic now.
+I've been working on the schematic for about an hour. So far, I've placed the Teensy, wired power and USB, added decoupling caps, started the keyboard and TrackPoint connector wiring, built partial level shifters, added pull-ups. I'll continue this tomorrow. Hopefully I can complete the schematic by then.
