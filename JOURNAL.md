@@ -29,6 +29,7 @@ I found [this instructable](https://www.instructables.com/Make-a-ThinkPad-keyboa
 | 2   | 715 Ω 0603 1% 0.1 W thick film resistors (R1 and R2) |
 | 4   | BSS138 N Channel FETs Digikey part number [4530-BSS138CT-ND](https://www.digikey.com/en/products/detail/anbon-semiconductor-int-l-limited/BSS138/16708474?s=N4IgTCBcDaICwFYDMAGAtAIQMpYIxIA4BhAFTQDkAREAXQF8g) |
 | 1   | [AA01B-S040](www.aliexpress.us/item/32930352581.html) connector |
+| 1   | T61 keyboard (PN42T3241/42T3273) |
 | 1   | Printed circuit board for schematic |
 
 ## The Start
