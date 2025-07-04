@@ -41,11 +41,18 @@ I've been working on the schematic for about an hour. So far, I've placed the Te
 ### The schematic:
 <img src="https://github.com/user-attachments/assets/3a0c1622-3c18-48aa-836a-411c2d4945c5" width="500"/>
 
-I started with the main johnson. The Teensy 4.0. It's a beast for its size, and good for what I'm doing. I wired in USB D+/D− lines from the connector on the left (J6), passing through a protection diode (D12), V from USB routed to the Teensy’s VIN pin (via J6 as well), and a reset circuit with a 100K pull-up on the reset line (R11) and 2.2 µF cap (C1). 
+I started with the main johnson. The Teensy 4.0. It's a beast for its size, and good for what I'm doing.
+
+I wired in USB D+/D− lines from the connector on the left (J6), passing through a protection diode (D12), V from USB routed to the Teensy’s VIN pin (via J6 as well), and a reset circuit with a 100K pull-up on the reset line (R11) and 2.2 µF cap (C1).
+
 For power distribution and don’t-talk-to-each-other circuitry I used 0.1 µF decoupling caps (C3–C6) near VCC pins and 2.2 µF caps (C1, C2) for big energy social distancing. Also capacitors too.
+
 The keyboard connector (J4, AA01B-S040) takes all the row/col lines straight to GPIOs. I tried to keep it neat. GPIOs 0–31 cover the matrix, plus pull-ups where needed.
+
 TrackPoint was a bit trickier. It uses a 3.3V PS/2-style interface. The Teensy runs at 3.3V logic, and so does the TrackPoint, but I wasn’t 100% sure at first. To be safe, I added four BSS138 MOSFETs (Q1–Q4) with pull-up resistors (R3–R10) to handle level shifting between the TrackPoint clock/data lines and the Teensy. It’s probably overkill, but it doesn’t hurt. There’s also a header (J10) to break out the TrackPoint lines for debugging.
-J2 is a soft power switch connected to a GPIO, and R1/R2 (715 Ω) are current-limiting resistors for the indicator LEDs. 
-It's been like 6 hours of research and making this, and I'm ready to hit the sack. I'll work on the PCB tomorrow.
+
+J2 is a soft power switch connected to a GPIO, and R1/R2 (715 Ω) are current-limiting resistors for the indicator LEDs.
+
+Anyways, It's been like 6 hours of research and making this, and I'm ready to hit the sack. I'll work on the PCB tomorrow.
 
  
