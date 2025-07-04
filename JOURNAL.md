@@ -37,7 +37,7 @@ I found [this instructable](https://www.instructables.com/Make-a-ThinkPad-keyboa
 
 I've been working on the schematic for about an hour. So far, I've placed the Teensy, wired power and USB, added decoupling caps, started the keyboard and TrackPoint connector wiring, built partial level shifters, added pull-ups. I'll continue this tomorrow. Hopefully I can complete the schematic by then.
 
-## 7/3/25 - 6 hours working.
+## 7/4/25 - 6 hours working.
 ### The schematic:
 <img src="https://github.com/user-attachments/assets/3a0c1622-3c18-48aa-836a-411c2d4945c5" width="500"/>
 
@@ -52,5 +52,14 @@ TrackPoint was a bit trickier. It uses a 3.3V PS/2-style interface. The Teensy r
 J2 is a soft power switch connected to a GPIO, and R1/R2 (715 Ω) are current-limiting resistors for the indicator LEDs.
 
 Anyways, It's been like 6 hours of research and making this, and I'm ready to hit the sack. I'll work on the PCB tomorrow.
+
+## 7/5/25 - 3-4 hours working.
+### The PCB:
+It's technically the next day since its like 2am right now. I've spent way to much time on this project. Anyways, I think I've got a really good PCB layout:
+
+![image](https://github.com/user-attachments/assets/00660b73-9569-4e3c-a21c-a2c86487401a)
+
+Though I cannot figure out how to wire/route it. I am actually so awful at wiring pcbs it's actually not funny. I'll try and get the autorouter to do it, but I dont think it cant figure out the vias. Maybe when the sun is up I'll get my friend (who actually knows what he's doing) to help me out.
+
 
  
