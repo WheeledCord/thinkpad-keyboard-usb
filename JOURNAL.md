@@ -53,13 +53,30 @@ J2 is a soft power switch connected to a GPIO, and R1/R2 (715 Ω) are current-
 
 Anyways, It's been like 6 hours of research and making this, and I'm ready to hit the sack. I'll work on the PCB tomorrow.
 
-## 7/5/25 - 3-4 hours working.
+## 7/5/25 - 4 hours working.
 ### The PCB:
 It's technically the next day since its like 2am right now. I've spent way to much time on this project. Anyways, I think I've got a really good PCB layout:
 
-![image](https://github.com/user-attachments/assets/00660b73-9569-4e3c-a21c-a2c86487401a)
+<img src="https://github.com/user-attachments/assets/00660b73-9569-4e3c-a21c-a2c86487401a" width="500"/>
 
 Though I cannot figure out how to wire/route it. I am actually so awful at wiring pcbs it's actually not funny. I'll try and get the autorouter to do it, but I dont think it cant figure out the vias. Maybe when the sun is up I'll get my friend (who actually knows what he's doing) to help me out.
+
+After A while, and help from the autorouter I got this:
+<img src="https://github.com/user-attachments/assets/795b2f70-3c09-49da-a54e-ac2fad4f3aa5" width="500"/>
+It's pretty jank, and I think I need to make some wires thicker, but I dont know the exact details. Vias under the connecter should? work but I'm not too sure. I'll get my friend to help me soon, But I need sleep.
+
+## 7/5/25 - but its not 3am anymore - 3 hours working
+My friend was able to help me with the PCB, and we were able to improve the routing quite a lot (by we I mean he). Here is the new and improved PCB:
+<img src="https://github.com/user-attachments/assets/42bb31f4-1db4-4f0d-9d2e-c67063391404" width="500"/>
+A lot better don't you think?
+
+
+
+
+
+
+
+
 
 
  
