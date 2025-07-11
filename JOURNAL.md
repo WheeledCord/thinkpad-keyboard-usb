@@ -74,7 +74,8 @@ My friend was able to help me with the PCB, and we were able to improve the rout
 
 A lot better don't you think?
 
-
+## 7/11/25
+Finally coming back to this project after focusing on Summer of Making and competing in the New Zealand Cybersecurity Challenge. I just need to make a few finishing touches to the PCB and convert it to gerber
 
 
 
