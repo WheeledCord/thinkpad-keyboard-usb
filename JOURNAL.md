@@ -74,13 +74,14 @@ My friend was able to help me with the PCB, and we were able to improve the rout
 
 A lot better don't you think?
 
-## 7/11/25
+## 7/11/25 - 1 Hour working
 Finally coming back to this project after focusing on Summer of Making and competing in the New Zealand Cybersecurity Challenge. I just need to make a few finishing touches to the PCB and convert it to gerber
 Here is a 3D render of my PCB. I think I'm going to have to start writing the firmware though. Not very excited for this.
 
 <img src="https://github.com/user-attachments/assets/6e56b613-7a4f-4a68-a0b7-0f1003e91c46" width="500"/>
 
-
+## 7/11/25
+Today is the last day of school holidays, which means I'll have less time to work on this project. Anyways. Time to write the firmware! 
 
 
 
